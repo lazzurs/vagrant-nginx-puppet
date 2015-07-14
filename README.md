@@ -3,8 +3,11 @@
 ## Requirements
 
 [Vagrant] (https://www.vagrantup.com/)
+
 [Virtualbox] (https://www.virtualbox.org/)
+
 [Bundle] (http://bundler.io/)
+
 make
 
 ## Usage
