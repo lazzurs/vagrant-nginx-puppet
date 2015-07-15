@@ -18,6 +18,9 @@ install-puppet-modules:
 
 .PHONY: vagrant-up
 vagrant-up:
+	@echo [Installing Vagrant plugin]
+	@vagrant status
+	@echo [Done - Installing Vagrant plugin]
 	@echo [Starting Vagrant VM]
 	@vagrant up
 	@echo [Finished starting Vagrant VMs]
